@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenidos a mi pagina</h1>
+    <p>En esta pagina te mostrara las 4 operaciones aritmeticas. Junto a tu nombre de usuario</p>
+    <script>
+        let nombre;
+        let valor1, valor2;
+        nombre = prompt('Ingrese su nombre: ');
+        valor1 = parseInt(prompt("Ingrese el primer valor: "));
+        valor2 = parseInt(prompt("Ingrese el segundo valor: "));
+        document.write('<h4>Hola, tu nombre es: ');
+        document.write(nombre);
+        document.write("</h4>");
+        document.write("<br>")
+        document.write("<h4>La suma de ");
+        document.write(valor1);
+        document.write(' + ');
+        document.write(valor2);
+        document.write(" es: ");
+        console.log(valor1 + valor2);
+        let suma= valor1 + valor2;
+        document.write(suma)
+        document.write("</h4>");
+        document.write("<br>")
+        document.write("<h4>La resta de ");
+        document.write(valor1);
+        document.write(' - ');
+        document.write(valor2);
+        document.write(" es: ");
+        console.log(valor1 - valor2);
+        let resta= valor1 - valor2;
+        document.write(resta)
+        document.write("</h4>")
+        document.write("<br>")
+        document.write("<h4>La multiplicacion de ");
+        document.write(valor1);
+        document.write(' x ');
+        document.write(valor2);
+        document.write(" es: ");
+        console.log(valor1 * valor2);
+        let mult= valor1 * valor2;
+        document.write(mult)
+        document.write("</h4>")
+        document.write("<br>")
+        document.write("<h4>La division de ");
+        document.write(valor1);
+        document.write(' / ');
+        document.write(valor2);
+        document.write(" es: ");
+        console.log(valor1 / valor2);
+        let div= valor1 / valor2;
+        document.write(div)
+        document.write("</h4>")
+    </script>
+    <h2>Gracias por seguirme</h2>
+</body>
+</html>
